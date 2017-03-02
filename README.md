@@ -17,9 +17,9 @@ pandas_3.py
 
 phue_test.py
   
-  #May be related to line 10: b = Bridge('192.168.2.74')
-  #File "C:\Users\<username>\AppData\Local\Continuum\Anaconda3\lib\socket.py", line 586, in readinto
-  #return self._sock.recv_into(b)
-  #timeout: timed out
+  # May be related to line 10: b = Bridge('192.168.2.74')
+  # File "C:\Users\<username>\AppData\Local\Continuum\Anaconda3\lib\socket.py", line 586, in readinto
+  # return self._sock.recv_into(b)
+  # timeout: timed out
 
    
