@@ -1,0 +1,5 @@
+**/*.xls
+*.pyc
+**/__pycache__
+.spyderproject/
+.spyproject/
