@@ -42,7 +42,7 @@ Now that we have learned a few basics, its time for use to begin creating reusab
 
 
 ### Beginner 3 - Dictionaries and Lists
-In this lesson, we will learn how to use lists and dictionaries of information.  These objects will become very useful when we're working with graphs of data.
+In this lesson, we will learn how to use lists and dictionaries of information.  These objects will become handy when we're working with graphs of data.
 
 **dictionary** - Also known as a 'dict', it is a series of key and value pairs.  
 **None** - 'None' is a special keyword in Python that literally means nothing
@@ -50,7 +50,7 @@ In this lesson, we will learn how to use lists and dictionaries of information. 
 ### Beginner 4 - Import Statements, Pandas, and Excel
 The term "third-party library" refers to a package of code that other people have written.  One of the many benefits of writing code in Python is that it has a very large and active development community. This community has built a variety of code that performs many different functions - including scientific operations, file manipulation, and more! The import statement makes these functions available to your code.
 
-In this lesson we'll learn to use
+In this lesson, we'll learn to import and use Pandas to export a list of information into Excel.
 
 **module** - A group of code that may be imported into your script.  
 **import** - A special command in Python that pulls in a module of code and makes it available to use in your script.  
