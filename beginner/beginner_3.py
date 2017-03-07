@@ -1,29 +1,23 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Mar  1 20:52:42 2017
+1.) Lists (also known as an Array) are great for storing a series of information.
+You can iterate the list to access its contents, or specify a single value. Python
+is zero-based, in that each position in the array is given a number from 0 to the
+last element.
 
-@author: rohan
+Add your name to the list
 """
+my_list = ['Karl', 'Karly', 'Kristoph', 'Kurt']
 
-import pandas as pd
-import matplotlib.pyplot as plt
-import os 
-plt.style.use('ggplot')
 
-my_dict = {"Numbers":[1,2,3,4,5], "Fruit":["Apple","Orange","peer","Orange","Peach"]}
-my_df = pd.DataFrame(my_dict)
+"""
+2.) Dictionaries are even more useful in that they can store key/value pairs of
+information. As you may notice, the dictionary below looks a lot like an Excel
+header with a list of values below.
 
-#create a Data frame
-plt.figure()
-my_df.Numbers.plot(title = 'My Numbers line chart')
-
-my_df = pd.DataFrame(my_dict)
-
-#create an excel file 
-my_df.to_excel('test1.xlsx',sheet_name = 'test1',index = False)
-
-#read an excel file
-reread_my_df = pd.read_excel('test1.xlsx')
-plt.figure()
-reread_my_df.Numbers.plot(title = 'My reread data')
-
+Add my list to the dictionary
+"""
+my_dict = {
+    "Numbers": [1, 2, 3, 4, 5],
+    "Fruit": ["Apple", "Orange", None, "Orange", "Peach"]
+}
