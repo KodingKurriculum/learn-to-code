@@ -53,7 +53,7 @@ The term "third-party library" refers to a package of code that other people hav
 In this lesson we'll learn to use
 
 **module** - A group of code that may be imported into your script.  
-**import** - A special command in Python that pulls in a module of code and makes it available to use in your script.
+**import** - A special command in Python that pulls in a module of code and makes it available to use in your script.  
 **pandas** - A high performance data-analysis tool, great for out-of-the-box useful tasks like sorting, finding min/max/avg, and outputting to Excel. - [more info](http://pandas.pydata.org/)
 
 ## Additional Information
