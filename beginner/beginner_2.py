@@ -37,7 +37,17 @@ print( 'Added: ' + str(a) )
 # print( 'Added: '.format(str(a)) )
 
 """
-3.) There are two types of numbers in Python - integers and floating points
+3.) There are two types of numbers in Python - integers and floating points.
+In our previous lesson, we worked with integers.  Integers do not have a decimal,
+while floating point numbers do.  This differentiation may not seem like much,
+but to a computer it means a completely different way of storing the number in
+memory.
 
-
+Perform the above exercise, but assign x_fp and y_fp a number that includes a decimal.
 """
+# x_fp = ...
+# y_fp = ...
+
+# Reassiging a to a different value.
+# a = add(x_fp, y_fp)
+# print( 'Added: '.format(str(a)) )
