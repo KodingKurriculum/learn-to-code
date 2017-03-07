@@ -17,7 +17,8 @@ pip install pyorient
 pip install simple-salesforce
 ```
 
-3.) Open Spyder
+3.) Open Spyder  
+4.) Click Projects -> New Project -> Browse to the directory you unzipped.
 
 
 ## Beginners
