@@ -8,7 +8,7 @@ There are a few things you need to begin programming in Python. All of these thi
 *Spyder* - Also known as an IDE, Spyder is the program you use to actually type and run Python code.  
 *Conda* - The package manager used to download versions of Third-party libraries that can be used by your code.  
 
-1.) Download [Anaconda](https://www.continuum.io/downloads)  
+1.) Download and install [Anaconda](https://www.continuum.io/downloads)  
 2.) In a Windows command line console (cmd), execute the following lines:
 ```sh
 conda install pandas numpy matplotlib python-dateutil SQLAlchemy seaborn pymysql openpyxl numexpr six xlrd quandl
