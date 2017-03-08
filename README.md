@@ -18,7 +18,8 @@ pip install simple-salesforce
 ```
 
 3.) Open Spyder  
-4.) Click Projects -> New Project -> Browse to the directory you unzipped.
+4.) Click View -> Panes -> Make sure File Explorer is checked.
+5.) Open the project folder in this pane.
 
 
 ## Beginners

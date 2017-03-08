@@ -33,7 +33,7 @@ x_int = 2
 y_int = 10
 a = add(x_int, y_int)
 print( 'Added: ' + str(a) )
-# Another, and preferred way to format the string:
+# Another, and preferred way to format the string is to call the format function:
 # print( 'Added: '.format(str(a)) )
 
 """
@@ -50,4 +50,4 @@ Perform the above exercise, but assign x_fp and y_fp a number that includes a de
 
 # Reassiging a to a different value.
 # a = add(x_fp, y_fp)
-# print( 'Added: '.format(str(a)) )
+# print( 'Added: '+ str(a) )

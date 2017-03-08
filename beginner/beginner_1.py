@@ -38,14 +38,14 @@ function.
 
 Have this program run through numbers 10 to 20
 """
-var times = 10                  # iterate ten times!
+times = 10                      # iterate ten times!
 for i in range(0, times):
-    if (i == 1):                # if statements use condition blocks to determine which code branch to execute
+    if (i == 1):                    # if statements use condition blocks to determine which code branch to execute
         print("First time!")
     elif (i == times):
-        print("Last time!")
+        print("Last time!")         # Last time! doesn't print.  Why?
     else:
-        print(hello+" "+i)      # use a plus sign to concatenate strings together into one
+        print(hello+" "+str(i))     # use a plus sign to concatenate strings together into one
 
     """
     5.) Whoa! Why did we indent?! Indentations are used for blocks(sections) of
