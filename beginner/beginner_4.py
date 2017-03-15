@@ -1,42 +1,71 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Mar  1 20:52:42 2017
+Beginner Script 4 - Imports, Pandas, and Matplotlib
 
-@author: rohan
+In this script, we'll learn to import third party libraries, read an excel sheet,
+plot values to a graph, and write to an excel sheet.
+
+1.) We include other libraries that people have built by using the special
+keyword "import".  At the beginning of the setup, you were asked to run the
+command 'conda install pandas matplotlib ...'.  This command installed the
+libraries on your computer so that they can be imported.
 """
-"""To import a package in python use the key word "import"
+import pandas as pd # here we are importing pandas and renaming it to 'pd'
+import numpy as np
 
-    example import <package>
-    or import <package> as <object>
+def plotDataFrame():
+    """
+    2.) A dictionary is a special python object that allows you to map a key to a
+    list of values.  You can then later look up the list of values through this key.
+    """
+    my_dict = {
+            "Numbers": [4, 1, 5, 2, 3],
+            "Names": np.random.rand(5)
+        }
+    
+    """
+    3.) A dictionary is a special python object that allows you to map a key to a
+    list of values.  You can then later look up the list of values through this key.
+    
+    The DataFrame is like a excel sheet
+    """
+    my_df = pd.DataFrame(my_dict)
+    
+    """
+    4.) Data Frames are great because they have useful functions you can use to
+    interact with your dataset like 'sort' and 'plot'
+    
+    DataFrame.sort(['column_1', 'column_2'], ascending=[1,0])
+    DataFrame.plot(style=['o','rx'], title = '...')
+    """
+    # sort ...
+    
+    # then plot
 
-    or form <import> <object>
-"""
 
-import pandas as pd # here we are importing pandas
-import matplotlib.pyplot as plt
-import os #This module provides a portable way of using operating system dependent functionality.
-plt.style.use('ggplot')
-""" form the previous section we learned how to create dictionaries with Keys that has values
-    create a new dict call it Mydict2 and have  Fruits as the key also add a list with numbers from 0 to 10
- eg. "Fruit":[1,2,3....]
-     then try to plot the data.
 
-"""
-my_dict = {"Numbers":[1,2,3,4,5]}
-my_df = pd.DataFrame(my_dict) #The dataFrame is like a excel sheet
-#create a Data frame
-plt.figure()
-my_df.Numbers.plot(title = 'My Numbers line chart')
-my_df = pd.DataFrame(my_dict)
-#create an excel file
-my_df.to_excel('test1.xlsx',sheet_name = 'test1',index = False)
-#read an excel file
-reread_my_df = pd.read_excel('test1.xlsx')
-plt.figure()
-reread_my_df.Numbers.plot(title = 'My reread data')
-""" Try to create your own plot"""
-my_dict2 = {"Fruit":[0,1,3,4,5,6,7,8,9,10]}
-my_df2 = pd.DataFrame(my_dict2)
-plt.figure()
-my_df2.Fruit.plot(title = 'My Fuits line chart')
-my_df2 = pd.DataFrame(my_dict2)
+    
+def plotExcel():  
+    """
+    4.) DataFrames also have built in Excel functionality, like creating a file
+    and reading from one.
+    
+    DataFrame.to_excel('file_name.xlsx', sheet_name='sheet_name', index=False)
+    DataFrame.read_excel('file_name.xlsx')
+    """
+    # create a dictionary of numbers
+    
+    # write to the file
+    
+    # read from the file
+    
+    # sort descending
+    
+    # plot the results
+    
+    """
+    Your assignment is to write a function that 
+        - accepts an Excel file name as a parameter, 
+        - reads the Excel file, 
+        - and plot a specific column.
+    """
