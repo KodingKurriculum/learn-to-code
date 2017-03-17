@@ -20,52 +20,53 @@ def plotDataFrame():
     """
     my_dict = {
             "Numbers": [4, 1, 5, 2, 3],
-            "Names": np.random.rand(5)
+            "Names": np.random.rand(5)  # just creating a list of 5 random numbers
         }
-    
+
     """
     3.) A dictionary is a special python object that allows you to map a key to a
     list of values.  You can then later look up the list of values through this key.
-    
+
     The DataFrame is like a excel sheet
     """
     my_df = pd.DataFrame(my_dict)
-    
+
     """
     4.) Data Frames are great because they have useful functions you can use to
     interact with your dataset like 'sort' and 'plot'
-    
-    DataFrame.sort(['column_1', 'column_2'], ascending=[1,0])
+
+    DataFrame.sort_by(['column_1', 'column_2'], ascending=[1,0])
     DataFrame.plot(style=['o','rx'], title = '...')
     """
-    # sort ...
-    
+    # sort ... (sort wasn't working, so we're going to skip this.)
+
     # then plot
 
 
 
-    
-def plotExcel():  
+
+def plotExcel():
     """
     4.) DataFrames also have built in Excel functionality, like creating a file
     and reading from one.
-    
+
     DataFrame.to_excel('file_name.xlsx', sheet_name='sheet_name', index=False)
     DataFrame.read_excel('file_name.xlsx')
     """
     # create a dictionary of numbers
-    
+
+    # create a DataFrame from the dictionary
+
     # write to the file
-    
+
     # read from the file
-    
-    # sort descending
-    
+
     # plot the results
-    
+
     """
-    Your assignment is to write a function that 
-        - accepts an Excel file name as a parameter, 
-        - reads the Excel file, 
+    Your assignment is to update the function above to
+        - accepts an Excel file name as a parameter,
+        - reads the Excel file,
         - and plot a specific column.
+        - Test it using an Excel file you use on a regular basis!
     """
