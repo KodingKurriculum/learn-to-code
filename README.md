@@ -3,7 +3,7 @@
 ## What is Python, and why use it?
 Python is a multi-purpose, object-oriented programming language.  In a few short lines of code, you can perform various tasks like query a database, read and create an Excel document, or pull information from a website. The Python community has created machine learning and plotting programs that even a novice could use.  Truly, the limits and benefits of using Python to do things for you are left up to your imagination and persistence.
 
-**Hello!**
+**Hello Kristin!**
 
 ## Installation
 There are a few things you need to begin programming in Python. All of these things (and more) are included with the download of the application bundle [Anaconda](https://www.continuum.io/downloads). The three key ingredients of [Anaconda](https://www.continuum.io/downloads) that you should be most concerned with is Python the language, Spyder the programming language, and Conda the package manager.
