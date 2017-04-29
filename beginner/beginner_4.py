@@ -10,6 +10,7 @@ keyword "import".  At the beginning of the setup, you were asked to run the
 command 'conda install pandas matplotlib ...'.  This command installed the
 libraries on your computer so that they can be imported.
 """
+
 import pandas as pd # here we are importing pandas and renaming it to 'pd'
 import numpy as np
 
@@ -22,7 +23,7 @@ def plotDataFrame():
             "Numbers": [4, 1, 5, 2, 3],
             "Names": np.random.rand(5)  # just creating a list of 5 random numbers
         }
-
+        
     """
     3.) A dictionary is a special python object that allows you to map a key to a
     list of values.  You can then later look up the list of values through this key.
@@ -41,8 +42,9 @@ def plotDataFrame():
     # sort ... (sort wasn't working, so we're going to skip this.)
 
     # then plot
+    my_df.plot(style=['o','rx'], title = 'Karls Numbers')
 
-
+plotDataFrame()
 
 
 def plotExcel():
