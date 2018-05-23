@@ -11,30 +11,9 @@ Learning to code is valuable and fun!
 [![What they don't teach you in school](http://img.youtube.com/vi/nKIu9yen5nc/0.jpg)](http://www.youtube.com/watch?v=nKIu9yen5nc)
 
 ## OK, where do I start?
-1. [Open this link in your browser](https://repl.it/languages/python3)
-2. Follow the lessons below in order
+1. [Open this link in your browser](https://repl.it/classroom/invite/VD0VAUq)
+2. Follow the assignments below in order
 3. Checkout the resources at the end of this README
-
-## Lesson 1
-### Welcome to the "Learn to Code" Series!
-In this class, you'll learn the most basic elements of what it means to write code.  The best parts about this tutorial?
-
-    No installation needed!
-    No prior knowledge necessary!
-    No major time investment!
-
-### Lets get started.
-Type the following code in the top left box, and click run
-`print('Hello world!')`
-
-### Congrats!
-While being a boring program, it is your first.  You told Python to print the text 'Hello world!', and that's exactly what it did.
-
-As you might guess, print(...) is a Python function that prints out to the screen whatever is passed in as a parameter.
-
-## Lesson 2
-
-
 
 ## Additional Information
 There are many resources to learn more about python.
