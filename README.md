@@ -11,9 +11,9 @@ Learning to code is valuable and fun!
 [![What they don't teach you in school](http://img.youtube.com/vi/nKIu9yen5nc/0.jpg)](http://www.youtube.com/watch?v=nKIu9yen5nc)
 
 ## OK, where do I start?
-1. [Open this link in your browser](https://repl.it/classroom/invite/VD0VAUq)
-2. Follow the assignments below in order
-3. Checkout the resources at the end of this README
+1. [Open this link in your browser](https://repl.it/classroom/invite/VD0VAUq) - Log in with your Google account
+2. Follow the assignments in order
+3. Checkout the resources below
 
 ## Additional Information
 There are many resources to learn more about python.
