@@ -13,7 +13,7 @@ Learning to code is valuable and fun!
 ## OK, where do I start?
 1. [Open this link in your browser](https://repl.it/classroom/invite/VDZSBkn) - Log in with your Google account
 2. Follow the assignments in order
-3. Checkout the resources below
+3. Checkout the resources below or [join our Slack channel!](https://join.slack.com/t/kodingkurriculum/signup) 
 
 ## Additional Information
 There are many resources to learn more about python.
