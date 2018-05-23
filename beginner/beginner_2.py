@@ -12,7 +12,7 @@ def add(x, y):
 def subtract(x, y):
     return (x - y)
 """
-1.) Functions are blocks of code with three important features.Most
+1.) Functions are blocks of code with three important features. Most
 importantly, they are assigned a name.  This name can be called later in the progam.
 Secondly, they can be passed variables.  These variables can be used within
 the scope (beginning to end) of the function to perform various operations.
