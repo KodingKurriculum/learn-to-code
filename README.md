@@ -5,16 +5,13 @@ When a software developer writes code, they are creating instructions for the co
 
 ## Why should I learn?
 Because its valuable and fun!
-[![Everyone should learn to program](https://github.com/KodingKurriculum/learn-to-code/blob/master/resources/images/learn-to-code.PNG)](https://youtu.be/nKIu9yen5nc)
+
+[![Everyone should learn to program](https://github.com/KodingKurriculum/learn-to-code/blob/master/resources/images/learn-to-code.PNG | width=300)](https://youtu.be/nKIu9yen5nc)
 
 ## What is Python, and why use it?
 Python is a multi-purpose, object-oriented programming language.  It is a great language to learn with because its syntax is comparatively understandable and concise.
 
 In a few short lines of code, you can perform various tasks like query a database, read and create an Excel document, or pull information from a website. The Python community has created machine learning and plotting programs that even a novice could use.  Truly, the limits and benefits of using Python to do things for you are left up to your imagination and persistence.
-
-## Where to start?
-
-
 
 ## Additional Information
 There are many resources to learn more about python.
