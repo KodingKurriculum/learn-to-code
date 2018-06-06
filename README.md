@@ -15,6 +15,9 @@ Learning to code is valuable and fun!
 2. Follow the assignments in order
 3. Checkout the resources below or [join our Slack channel!](https://join.slack.com/t/kodingkurriculum/signup) 
 
+## What next?
+1. [Try the useful python classroom](https://repl.it/classroom/invite/VW0TRrO) - Log in with your Google account
+2. Go through the [10 minutes of Pandas tutorial](https://pandas.pydata.org/pandas-docs/stable/10min.html) on the official pandas website
 ## Additional Information
 There are many resources to learn more about python.
 * [python.org](http://www.python.org)
