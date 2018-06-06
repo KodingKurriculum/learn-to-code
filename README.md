@@ -18,6 +18,8 @@ Learning to code is valuable and fun!
 ## What next?
 1. [Try the useful python classroom](https://repl.it/classroom/invite/VW0TRrO) - Log in with your Google account
 2. Go through the [10 minutes of Pandas tutorial](https://pandas.pydata.org/pandas-docs/stable/10min.html) on the official pandas website
+3. Start coding on your own by installing [Anaconda](https://conda.io/docs/user-guide/install/index.html) and [Git](https://git-scm.com/downloads)
+
 ## Additional Information
 There are many resources to learn more about python.
 * [python.org](http://www.python.org)
